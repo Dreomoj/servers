@@ -1,0 +1,17 @@
+{
+  "name": "servers",
+  "version": "1.0.0",
+  "description": "\"backend\"",
+  "main": "server.js",
+  "scripts": {
+    "dre": "nodemon server.js"
+  },
+  "author": "dre",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
